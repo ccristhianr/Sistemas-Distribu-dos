@@ -1,0 +1,23 @@
+
+	Sistemas Distribuídos
+
+1-	Pesquisa sobre as maiores dificuldades de implementação
+Algumas das maiores dificuldades de implementação incluem:
+•	Coordenação e sincronização: Como os componentes em sistemas distribuídos estão localizados em diferentes máquinas, é necessário garantir que eles estejam sincronizados e coordenados para que funcionem corretamente. Isso pode ser especialmente difícil em sistemas com alta carga de trabalho e muitos componentes interconectados.
+•	Gerenciamento de falhas: Falhas em componentes individuais podem afetar o desempenho geral do sistema. falhas em sistemas requerem a implementação de controle de detecção de falhas e estratégias de recuperação que podem ser complexas e difíceis de implementar.
+•	Segurança: A segurança é um problema crítico em sistemas distribuídos, já que os componentes estão expostos a riscos de ataques externos e internos. A implementação de medidas de segurança, como autenticação e criptografia, é vital para garantir a integridade e a privacidade dos dados do sistema.
+•	Concorrência: Em sistemas distribuídos, vários componentes podem acessar recursos compartilhados simultaneamente, o que pode levar a problemas de competição. A implementação de interrupção de controle de acesso e sincronização é necessária para garantir a consistência dos dados.
+
+2-	O que é gRPC (Google Remote Procedure Call), e para que serve? Cite 2 outras alternativas de RPC
+
+gRPC é um sistema de comunicação remota de procedimento criado pelo Google, que utiliza o Protocol Buffers (protobuf) como formato de mensagem e HTTP/2 como protocolo de transporte. Serve para facilitar a criação de sistemas distribuídos eficientes e de alto desempenho, permitindo que as aplicações se comuniquem de forma transparente através de redes. Outras 2 alternativas de RPC são:
+•	JSON-RPC: É um protocolo de comunicação remota de procedimento baseado em JSON (JavaScript Object Notation). É relativamente simples e fácil de implementar, mas pode ser menos eficiente em termos de desempenho do que outras alternativas.
+•	XML-RPC: É um protocolo de comunicação remota de procedimento baseado em XML (Extensible Markup Language). Ele foi uma das primeiras alternativas de RPC a serem criadas e ainda amplamente utilizadas em algumas aplicações. No entanto, pode ser menos eficiente do que outras alternativas devido ao overhead adicional de processamento do XML.
+
+
+3-	Pesquise sobre o Apache Kafka, explique o que é, para que serve e cite 2 outras alternativas de message brokers
+Apache Kafka é uma plataforma de streaming de dados distribuída e escalável. Serve para permitir a troca de dados em tempo real entre diferentes sistemas, aplicativos e dispositivos, em um ambiente distribuído. Outras 2 alternativas de message brokers são: 
+•	RabbitMQ: É um message broker de código aberto baseado em AMQP (Advanced Message Queuing Protocol). 
+•	Apache ActiveMQ: É um message broker de código aberto que suporta vários protocolos de mensagens, como AMQP, MQTT, STOMP e WebSocket. 
+
+
